@@ -13,7 +13,7 @@ provider "aws" {
 }
 
 module "docker_instance" {
-    source = "<huseyintsdmr>/docker-instance/aws"
+    source = "huseyintsdmr/docker-instance/aws"
     key_name = "clarusway"
 }
 ```
